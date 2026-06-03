@@ -1,0 +1,10 @@
+LIBRARY "AX_7z.apl"
+
+EXPORTS
+    AMP_CloseArchive
+    AMP_FileDecode
+    AMP_GetArchiveInfo
+    AMP_GetPlugInInfo
+    AMP_Init
+    AMP_OpenArchive
+    AMP_ShowPlugInDialog

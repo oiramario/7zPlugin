@@ -1,0 +1,41 @@
+# Build output
+build/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.aps
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+*.sdf
+*.suo
+*.sln
+*.filters
+*.user
+*.dir/
+*.vcxproj*
+
+# Debug logs
+*.log
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code config
+.claude/
+CLAUDE.md
+
+# Reference / test output
+ref/
+
+# Misc
+/*.py
+*.JPG

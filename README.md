@@ -1,6 +1,10 @@
-# AX_7Z -- 7z Archive Plugin for ACDSee Pro
+# AX_7Z -- 7z Archive Plugin for ACDSee (3.1 / Pro 5)
 
-A Win32 plug-in (`.apl` DLL) that adds native **7z archive** support to **ACDSee Pro 5+**. Implements the ACDSee AX (Archive eXtension) plugin interface using the [LZMA SDK 26.01](https://www.7-zip.org/sdk.html) for decompression.
+A Win32 plug-in (`.apl` DLL) that adds native **7z archive** support to **ACDSee**. Implements the ACDSee AX (Archive eXtension) plugin interface using the [LZMA SDK 26.01](https://www.7-zip.org/sdk.html) for decompression.
+
+> ✅ **Tested and confirmed working on:**
+> - **ACDSee 3.1** (32-bit)
+> - **ACDSee Pro 5** (32-bit)
 
 ---
 
@@ -69,7 +73,7 @@ Streaming exports (`FileDecodeStart`/`Step`/`Stop`) are **not** implemented -- t
 ## Requirements
 
 - **OS**: Windows (tested on Windows 10/11)
-- **Host**: ACDSee Pro 5+ (32-bit)
+- **Host**: ACDSee 3.1 / Pro 5 (32-bit) -- tested and confirmed working on both
 - **Build**: Visual Studio 2022 with C++ workload, CMake >= 3.15
 - **Target**: **x86 (32-bit)** Win32 DLL -- this is a hard constraint from ACDSee Pro's 32-bit plugin host.
 
